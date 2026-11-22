@@ -1,0 +1,12 @@
+python-telegram-bot
+httpx
+python-dotenv
+logging
+dotenv
+telegram
+sqlalchemy
+requests
+psycopg2-binary
+google-genai
+pydantic
+apscheduler

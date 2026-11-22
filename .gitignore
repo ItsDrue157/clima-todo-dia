@@ -1,0 +1,12 @@
+como trabalhar.txt
+teste.py
+todo.txt
+.venv
+.github
+.gemini
+__pycache__/
+*.py[cod]
+# segredos
+.env
+config/.env
+config/records/*.log

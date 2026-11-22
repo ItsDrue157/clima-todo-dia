@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  clima-bot:
+    build: .
+    container_name: telegram_clima_bot
+    restart: always
+    env_file: 
+      - ./config/.env
+    volumes:
+      - .:/app
+      - ./src/config/records:/app/src/config/records
